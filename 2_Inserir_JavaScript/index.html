@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inserir JavaScript</title>
+    <script src="js/scripts.js"></script>
+    <!--Carrega o script antes de carregar o html e pode dar erro, caso queira mudar só uma coida-->
+</head>
+
+<body>
+    <script>
+        console.log("Script no Body!");
+    </script>
+    <script src="js/scripts2.js"></script>
+    <!--Espera o html ser carregado para fazer aalteração com o script. É bom de ser utilizado quando há a necessidade de alterar elementos do body que estão juntos da página-->
+</body>
+
+</html>
